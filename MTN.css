@@ -1,0 +1,93 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+main {
+   height: 100vh;
+   width: 100%;
+   background-color: yellow;
+   color: darkblue;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+}
+
+.firsth1 {
+   width: 46vw;
+}
+
+.container {
+   width: 41vw;
+   height: 70vh;
+   color: black;
+   border: 10px solid gray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 40px;
+   background-color: white;
+}
+
+.container section {
+   height: 60vh;
+   width: 80vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+}
+
+.contents {
+   display: flex;
+   align-items: center;
+   height: 9vh;
+   width: 16vw;
+   box-shadow: 0px 16px 18px 4px rgba(0, 0, 0, 0.1);
+   border-radius: 30px;
+   padding: 0px 20px;
+}
+
+.contents h1 {
+   border-right: 1px solid gray;
+   font-size: xx-large;
+   font-weight: bold;
+   width: 75px;
+}
+
+.contents h3 {
+   margin-left: 10px;
+   font-size: large;
+}
+
+
+.below {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 80px;
+   width: 40vw;
+}
+
+.MTN {
+    /* border: 1px solid gray; */
+   display: flex;
+   height: 70px;
+   width: 15vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.MTN img {
+   height: 80px;
+   width: 150px;
+}
+
+.belowLine {
+   height: 40px;
+   width: 2px;
+   background-color: gray;
+}
