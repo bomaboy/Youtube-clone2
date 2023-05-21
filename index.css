@@ -69,7 +69,7 @@ nav {
    /* border: 1px solid black; */
    display: grid;
    padding-top: 20px;
-   grid-template-columns: 50px 70px 200px 150px 250px 60px 120px 80px 90px;
+   grid-template-columns: 40px 70px 200px 145px 290px 50px 150px 60px 0px;
 }
 
 nav div {
